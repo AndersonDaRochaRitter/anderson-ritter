@@ -1,60 +1,67 @@
-.logo-link{
-    position: fixed;
-    width: 53px;
-    height: 30px;
-    left: 271px;
-    top: 45px;
+.logo-link {
+  position: fixed;
+  width: 53px;
+  height: 30px;
+  left: 271px;
+  top: 45px;
+  cursor: pointer;
 
-    font-family: 'Azonix';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 32px;
+  font-family: 'Azonix';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
 
-    color: #221F48;
+  color: #221F48;
 }
-.projetos-link{
-    position: fixed;
-    width: 75px;
-    height: 27px;
-    left: 863px;
-    top: 40px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
+.projetos-link {
+  position: fixed;
+  width: 75px;
+  height: 27px;
+  left: 863px;
+  top: 40px;
+  cursor: pointer;
 
-    color: #221F48;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #221F48;
 }
+
 .home-link {
-    position: absolute;
-    width: 55px;
-    height: 27px;
-    left: 588px;
-    top: 40px;
+  position: absolute;
+  width: 55px;
+  height: 27px;
+  left: 588px;
+  top: 40px;
+  cursor: pointer;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
 
-    color: #221F48;
-  }
-  .contato-link{
-    position: absolute;
-    width: 75px;
-    height: 27px;
-    left: 1138px;
-    top: 40px;
+  color: #221F48;
+}
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    
-    color: #221F48;
-  }
+.contato-link {
+  position: absolute;
+  width: 75px;
+  height: 27px;
+  left: 1138px;
+  top: 40px;
+  cursor: pointer;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #221F48;
+}

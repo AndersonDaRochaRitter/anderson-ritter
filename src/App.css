@@ -2,8 +2,63 @@
   text-align: center;
 }
 
-.section{
+.section {
+  position: relative;
   height: 100vh;
+}
+
+.section::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./fundoOficial.jpg");
+  transform: rotate(179.97deg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.section-white-bg {
+  background-color: white;
+  height: 100vh;
+}
+
+.tituloPAG1 {
+  position: absolute;
+  width: 205px;
+  height: 58px;
+  left: 592px;
+  top: 382px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #000000;
+}
+
+.titulo2PAG1 {
+  position: absolute;
+  width: 145px;
+  height: 59px;
+  left: 797px;
+  top: 382px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #000000;
 }
 
 .header {
@@ -14,15 +69,6 @@
   height: 50px;
   display: flex;
   justify-content: space-around;
-}
+  z-index: 999;
 
-.header-link {
-  text-transform: uppercase;
-  padding: 10px;
-  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
-}
-

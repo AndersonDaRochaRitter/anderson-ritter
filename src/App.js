@@ -19,11 +19,11 @@ const App = () => {
     <div className="App">
       <Header />
       <div id="home" className="section">
-        <h1>Homepage</h1>
-        <p>Conteúdo da página inicial</p>
+        <h1 className="tituloPAG1">Anderson</h1>
+        <h1 className="titulo2PAG1">Ritter</h1>
       </div>
 
-      <div id="projetos" className="section white-bg">
+      <div id="projetos" className="section-white-bg">
         <h1>Projetos</h1>
         <p>Lista de projetos</p>
       </div>
