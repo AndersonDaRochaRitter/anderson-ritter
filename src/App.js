@@ -21,6 +21,12 @@ const App = () => {
       <div id="home" className="section">
         <h1 className="tituloPAG1">Anderson</h1>
         <h1 className="titulo2PAG1">Ritter</h1>
+        <h1 style={{ position: 'absolute', top: '441px', left: '585px', width: '181px', height: '18px', width: '181px', color: '#000', fontFamily: 'Poppins', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '18px', display: 'flex', alignItems: 'center', textAlign: 'center' }}>Engenheiro de Software</h1>
+        <h1 style={{ position: 'absolute', top: '441px', left: '772px', width: '181px', height: '18px', width: '181px', color: '#000', fontFamily: 'Poppins', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '18px', display: 'flex', alignItems: 'center', textAlign: 'center' }}>Desenvolvedor</h1>
+        <div style={{ position: 'absolute', left: '766.45px', top: '454px' }}>
+          <div style={{ width: '5.1px', height: '4.89px', borderRadius: '50%', background: '#0D0C0C' }}></div>
+        </div>
+
       </div>
 
       <div id="projetos" className="section-white-bg">
