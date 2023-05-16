@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import './App.css';
 import './Header.css';
+import seta1 from './Seta1.svg';
 
 const Header = () => {
   return (
@@ -21,13 +22,19 @@ const App = () => {
       <div id="home" className="section">
         <h1 className="tituloPAG1">Anderson</h1>
         <h1 className="titulo2PAG1">Ritter</h1>
-        <h1 style={{ position: 'absolute', top: '441px', left: '585px', width: '181px', height: '18px', width: '181px', color: '#000', fontFamily: 'Poppins', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '18px', display: 'flex', alignItems: 'center', textAlign: 'center' }}>Engenheiro de Software</h1>
-        <h1 style={{ position: 'absolute', top: '441px', left: '772px', width: '181px', height: '18px', width: '181px', color: '#000', fontFamily: 'Poppins', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '18px', display: 'flex', alignItems: 'center', textAlign: 'center' }}>Desenvolvedor</h1>
-        <div style={{ position: 'absolute', left: '766.45px', top: '454px' }}>
-          <div style={{ width: '5.1px', height: '4.89px', borderRadius: '50%', background: '#0D0C0C' }}></div>
-        </div>
-
+        <h1 style={{ position: 'absolute', top: '405px', left: '605px', height: '18px', width: '161px', color: '#000', fontFamily: 'Poppins', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '18px', display: 'flex', alignItems: 'center', textAlign: 'center' }}>Engenheiro de Software</h1>
+        <h1 style={{ position: 'absolute', top: '405px', left: '818px', height: '18px', width: '135px', color: '#000', fontFamily: 'Poppins', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '18px', display: 'flex', alignItems: 'center', textAlign: 'center' }}>Desenvolvedor</h1>
+        <div className="ponto"></div>
+        <div className="traco-esquerdo"></div>
+        <div className="traco-direito"></div>
+        <div className="eclipseTop"></div>
+        <div className='eclipse'></div>
+        <div className='eclipseBot'></div>
+        <div className='eclipseBot1'></div>
+        <div className='eclipseBot2'></div>
+        <div ><img src={seta1} width={30} height={30} /></div>
       </div>
+
 
       <div id="projetos" className="section-white-bg">
         <h1>Projetos</h1>

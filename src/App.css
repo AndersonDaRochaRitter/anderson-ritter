@@ -19,7 +19,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 120, 0, 1); /* cor laranja */
+  background-color: rgba(255, 120, 0, 1);
+  /* cor laranja */
   z-index: -1;
 }
 
@@ -31,13 +32,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("./fundoT.png");
+  background-image: url("./Ofuscado.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   z-index: -1;
-  opacity: 0.1; /* Define a opacidade apenas para a imagem de fundo */
+  opacity: 1;
+  /* Define a opacidade apenas para a imagem de fundo */
 }
 
 
@@ -52,7 +54,7 @@
   width: 205px;
   height: 58px;
   left: 592px;
-  top: 382px;
+  top: 45%;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -68,7 +70,7 @@
   width: 145px;
   height: 59px;
   left: 797px;
-  top: 382px;
+  top: 45%;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -89,4 +91,83 @@
   justify-content: space-around;
   z-index: 999;
 
+}
+
+.ponto {
+  position: absolute;
+  left: 780px;
+  top: 420px;
+
+  width: 5.1px;
+  height: 4.89px;
+  border-radius: 50%;
+  background: #0D0C0C;
+}
+
+.traco-esquerdo {
+  position: absolute;
+  left: 534px;
+  top: 420px;
+
+  width: 51px;
+  height: 2.93px;
+  background: #0B0A0A;
+}
+
+.traco-direito {
+  position: absolute;
+  left: 953px;
+  top: 420px;
+
+  width: 51px;
+  height: 2.93px;
+  background: #0B0A0A;
+}
+
+.eclipseTop {
+  position: absolute;
+  width: 472px;
+  height: 472px;
+  left: -236px;
+  top: -256px;
+  background: linear-gradient(180deg, #FFA250 0%, rgba(230, 126, 34, 0.45) 75.42%);
+  border-radius: 50%;
+}
+
+.eclipse {
+  position: 'absolute';
+  left: '-236px';
+  top: '736px';
+}
+
+.eclipseBot {
+  position: absolute;
+  width: 517px;
+  height: 517px;
+  left: -236px;
+  top: 736px;
+  background: linear-gradient(212.29deg, #FFFFFF 19.36%, rgba(255, 151, 57, 0) 74.13%);
+  filter: blur(112px);
+}
+
+.eclipseBot1 {
+  position: absolute;
+  width: 472px;
+  height: 472px;
+  left: 1088px;
+  top: 720px;
+
+  background: linear-gradient(212.29deg, #FFFFFF 19.36%, rgba(255, 151, 57, 0) 74.13%);
+  filter: blur(112px);
+}
+
+.eclipseBot2 {
+  position: absolute;
+  width: 472px;
+  height: 472px;
+  left: 942px;
+  top: 382px;
+
+  background: linear-gradient(212.29deg, #FFFFFF 19.36%, rgba(255, 151, 57, 0) 74.13%);
+  filter: blur(112px);
 }
